@@ -1,0 +1,65 @@
+body {
+  background-color: #f8f8f8;
+  font-family: "Montserat", sans-serif;
+  font-size: 17px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+a:link {
+  text-decoration: none;
+  color: royalblue;
+}
+a:visited {
+  color: darkslateblue;
+}
+a:hover {
+  color: black;
+}
+
+.Form input {
+  line-height: 25px;
+  width: 29%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: "Montserat", sans-serif;
+  font-size: medium;
+}
+
+.Form textarea {
+  font-family: "Montserat", sans-serif;
+  font-size: medium;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+input[type="submit"],
+input[type="reset"] {
+  font-family: "Montserat", sans-serif;
+  font-size: 17px;
+  width: 210px;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: 20px;
+}
+
+.Menu li {
+  list-style-type: none;
+}
+
+.List li {
+  list-style: url(img/Icons/check.svg);
+}
+
+.Heading {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 10px;
+}
+.SubHeading {
+  font-family: "Raleway", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Paragraph {
+  font-size: 17px;
+  margin: 2, 2, 10, 10px;
+}

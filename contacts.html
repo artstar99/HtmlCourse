@@ -2,32 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Подключение шрифтов -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css" />
     <title>Контакты</title>
   </head>
-  <body>
-    <ul class="menu">
-      <li><a href="index.html">Главная</a></li>
 
+  <body>
+    <ul class="Menu">
+      <li><a href="index.html">Главная</a></li>
       <li><a href="catalog/catalog.html">Каталог</a></li>
       <li><a href="contacts.html">Контакты</a> <br /></li>
     </ul>
     <hr />
-    <h1>Напишите нам</h1>
-    <form action="#">
-      Ваше имя <input type="text" placeholder="Ваше имя" /> <br />
-      E-mail <input type="email" placeholder="E-mail" /> <br />
-      <!-- <input type="text" placeholder="E-mail" /> <br /> -->
-
-      Тема <input type="text" placeholder="Тема" /> <br />
-      <br />
-      <textarea name="Text" cols="60" rows="10"></textarea> <br />
+    <h1 class="Heading">Напишите нам</h1>
+    <form class="Form" action="#">
+      Ваше имя <br />
+      <input type="text" placeholder="" /> <br />
+      E-mail <br />
+      <input type="email" placeholder="" /> <br />
+      Тема <br />
+      <input type="text" placeholder="" /> <br />
+      Текст <br />
+      <textarea name="Text" cols="53" rows="10"></textarea> <br />
       <input type="submit" value="Отправить" />
       <input type="reset" value="Отмена" /> <br />
     </form>
     <br />
 
-    <h3>Как нас найти:</h3>
+    <h3 class="SubHeading">Как нас найти:</h3>
 
     Почта: My@mail.com <br />
     Телефон: 054-567-988-55 <br />
